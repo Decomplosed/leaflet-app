@@ -3,6 +3,7 @@ import L from 'leaflet'
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 import leafGreen from './assets/icons/leaf-green.png'
 import leafRed from './assets/icons/leaf-red.png'
+import leafOrange from './assets/icons/leaf-orange.png'
 import leafShadow from './assets/icons/leaf-shadow.png'
 
 import './App.css'
