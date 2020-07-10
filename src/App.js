@@ -75,9 +75,10 @@ class App extends Component {
           url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
         />
         <Marker position={positionGreenIcon} icon={this.greenIcon}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
+          <Popup>City Centre</Popup>
+        </Marker>
+        <Marker position={positionRedIcon} icon={this.redIcon}>
+          <Popup>Family</Popup>
         </Marker>
       </Map>
     )
