@@ -56,6 +56,8 @@ class App extends Component {
   })
 
   render() {
+    const { greenIcon, redIcon, orangeIcon } = this.state
+
     const positionGreenIcon = [
       this.state.greenIcon.lat,
       this.state.greenIcon.lng,
