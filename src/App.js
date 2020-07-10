@@ -80,6 +80,9 @@ class App extends Component {
         <Marker position={positionRedIcon} icon={this.redIcon}>
           <Popup>Family</Popup>
         </Marker>
+        <Marker position={positionOrangeIcon} icon={this.orangeIcon}>
+          <Popup>Now</Popup>
+        </Marker>
       </Map>
     )
   }
