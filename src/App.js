@@ -4,6 +4,13 @@ import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 
 import './App.css'
 
+let myIcon = L.icon({
+  iconUrl: '',
+  iconSize: [25, 41],
+  iconAnchor: [12.5, 41],
+  popupAnchor: [0, -41],
+})
+
 class App extends Component {
   state = {
     lat: 51.505,
