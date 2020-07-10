@@ -58,17 +58,11 @@ class App extends Component {
   render() {
     const { greenIcon, redIcon, orangeIcon } = this.state
 
-    const positionGreenIcon = [
-      this.state.greenIcon.lat,
-      this.state.greenIcon.lng,
-    ]
+    const positionGreenIcon = [greenIcon.lat, greenIcon.lng]
 
-    const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng]
+    const positionRedIcon = [redIcon.lat, redIcon.lng]
 
-    const positionOrangeIcon = [
-      this.state.orangeIcon.lat,
-      this.state.orangeIcon.lng,
-    ]
+    const positionOrangeIcon = [orangeIcon.lat, orangeIcon.lng]
 
     return (
       <Map className='map' center={positionRedIcon} zoom={this.state.zoom}>
