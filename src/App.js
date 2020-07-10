@@ -18,18 +18,26 @@ class App extends Component {
   greenIcon = L.icon({
     iconUrl: leafGreen,
     shadowUrl: leafShadow,
+    iconSize: [38, 95],
+    shadowSize: [50, 64],
+    iconAnchor: [22, 94],
+    shadowAnchor: [4, 62],
+    popupAnchor: [-3, -76],
   })
 
   render() {
-    const position = [this.state.lat, this.state.lng]
+    const positionGreenIcon = [
+      this.state.greenIcon.lat,
+      this.state.greenIcon.lng,
+    ]
 
     return (
-      <Map className='map' center={position} zoom={this.state.zoom}>
+      <Map className='map' center={positionGreenIcon} zoom={this.state.zoom}>
         <TileLayer
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
         />
-        <Marker position={position} icon={myIcon}>
+        <Marker position={positionGreenIcon} icon={this.greenIcon}>
           <Popup>
             A pretty CSS3 popup. <br /> Easily customizable.
           </Popup>
