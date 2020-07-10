@@ -14,6 +14,10 @@ class App extends Component {
       lat: 54.3532259,
       lng: 18.6381551,
     },
+    redIcon: {
+      lat: 54.37364,
+      lng: 18.6287558,
+    },
     zoom: 13,
   }
 
