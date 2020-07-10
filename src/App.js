@@ -59,9 +59,7 @@ class App extends Component {
     const { greenIcon, redIcon, orangeIcon, zoom } = this.state
 
     const positionGreenIcon = [greenIcon.lat, greenIcon.lng]
-
     const positionRedIcon = [redIcon.lat, redIcon.lng]
-
     const positionOrangeIcon = [orangeIcon.lat, orangeIcon.lng]
 
     return (
