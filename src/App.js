@@ -63,6 +63,11 @@ class App extends Component {
 
     const positionRedIcon = [this.state.redIcon.lat, this.state.redIcon.lng]
 
+    const positionOrangeIcon = [
+      this.state.orangeIcon.lat,
+      this.state.orangeIcon.lng,
+    ]
+
     return (
       <Map className='map' center={positionGreenIcon} zoom={this.state.zoom}>
         <TileLayer
