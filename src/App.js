@@ -22,7 +22,7 @@ class App extends Component {
       lat: 54.4045456,
       lng: 18.5895719,
     },
-    zoom: 13,
+    zoom: 12,
   }
 
   greenIcon = L.icon({
