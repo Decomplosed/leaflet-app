@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import L from 'leaflet'
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 import leafGreen from './assets/icons/leaf-green.png'
+import leafShadow from './assets/icons/leaf-shadow.png'
 
 import './App.css'
 
