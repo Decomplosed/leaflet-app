@@ -18,6 +18,10 @@ class App extends Component {
       lat: 54.37364,
       lng: 18.6287558,
     },
+    orangeIcon: {
+      lat: 54.4045456,
+      lng: 18.5895719,
+    },
     zoom: 13,
   }
 
