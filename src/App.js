@@ -69,7 +69,7 @@ class App extends Component {
     ]
 
     return (
-      <Map className='map' center={positionGreenIcon} zoom={this.state.zoom}>
+      <Map className='map' center={positionRedIcon} zoom={this.state.zoom}>
         <TileLayer
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
