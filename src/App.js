@@ -35,6 +35,16 @@ class App extends Component {
     popupAnchor: [-3, -76],
   })
 
+  redIcon = L.icon({
+    iconUrl: leafRed,
+    shadowUrl: leafShadow,
+    iconSize: [38, 95],
+    shadowSize: [50, 64],
+    iconAnchor: [22, 94],
+    shadowAnchor: [4, 62],
+    popupAnchor: [-3, -76],
+  })
+
   render() {
     const positionGreenIcon = [
       this.state.greenIcon.lat,
