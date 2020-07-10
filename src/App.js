@@ -56,7 +56,7 @@ class App extends Component {
   })
 
   render() {
-    const { greenIcon, redIcon, orangeIcon } = this.state
+    const { greenIcon, redIcon, orangeIcon, zoom } = this.state
 
     const positionGreenIcon = [greenIcon.lat, greenIcon.lng]
 
